@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		1B7C3CBE2C530307007F23B6 /* MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7C3CBD2C530307007F23B6 /* MapApp.swift */; };
 		1B7C3CC02C530307007F23B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7C3CBF2C530307007F23B6 /* ContentView.swift */; };
-		1B7C3CC22C530308007F23B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C3CC12C530308007F23B6 /* Assets.xcassets */; };
 		1B7C3CC52C530308007F23B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C3CC42C530308007F23B6 /* Preview Assets.xcassets */; };
+		1B7C3CCC2C530334007F23B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7C3CCB2C530334007F23B6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B7C3CBA2C530307007F23B6 /* Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7C3CBD2C530307007F23B6 /* MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapApp.swift; sourceTree = "<group>"; };
 		1B7C3CBF2C530307007F23B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1B7C3CC12C530308007F23B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7C3CC42C530308007F23B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B7C3CCB2C530334007F23B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,10 @@
 			children = (
 				1B7C3CBD2C530307007F23B6 /* MapApp.swift */,
 				1B7C3CBF2C530307007F23B6 /* ContentView.swift */,
-				1B7C3CC12C530308007F23B6 /* Assets.xcassets */,
+				1B7C3CCB2C530334007F23B6 /* Assets.xcassets */,
+				1B7C3CCD2C530345007F23B6 /* Views */,
+				1B7C3CCE2C53034C007F23B6 /* ViewModels */,
+				1B7C3CCF2C530361007F23B6 /* Models */,
 				1B7C3CC32C530308007F23B6 /* Preview Content */,
 			);
 			path = Map;
@@ -65,6 +68,27 @@
 				1B7C3CC42C530308007F23B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B7C3CCD2C530345007F23B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B7C3CCE2C53034C007F23B6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1B7C3CCF2C530361007F23B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7C3CCC2C530334007F23B6 /* Assets.xcassets in Resources */,
 				1B7C3CC52C530308007F23B6 /* Preview Assets.xcassets in Resources */,
-				1B7C3CC22C530308007F23B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
